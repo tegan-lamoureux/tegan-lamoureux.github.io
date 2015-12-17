@@ -1,0 +1,97 @@
+/* this code is so mashed together god i'm so sorry */
+
+body {
+    font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 60px auto;
+    width: 70%;
+}
+
+nav {
+    position:fixed;
+    top:20px;
+    left:20px;
+
+    border-radius: 20px;
+    background-color: #333;
+    padding: 30px;
+    width: 200px;
+    height: auto;
+}
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+nav ul li, footer ul li {
+    /*display: inline;*/
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #FFFFFF;
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #999;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#footerContainer {
+    position:relative;
+    width:100%;
+    height:50px;
+}
+
+#imginthefooter {
+    background: url(/images/grass_entire.png);
+    width:100%;
+    height:50px;
+    /*top: -108px;  Position element */
+    /* right: 150px; Position element */
+    position: absolute;
+    display: inline;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
