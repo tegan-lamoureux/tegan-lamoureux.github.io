@@ -1,6 +1,6 @@
 title: Tegan's Website
 author: Tegan Lamoureux
-description: Thoughts, projects, portfolio, and cats.
+description: Thoughts, projects, and portfolio.
 github: https://github.com/tegan-lamoureux
 about: Thoughts and projects.
 
@@ -26,10 +26,10 @@ share:
   twitter_username: tegan_lamoureux
 
 urls:
-    - text: Resume
-      url: /resume/
     - text: About Me
       url: /about/
+    - text: Resume
+      url: /resume/
     - text: Contact
       url: /contact/
 

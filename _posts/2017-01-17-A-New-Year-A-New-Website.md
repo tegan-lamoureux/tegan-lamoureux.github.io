@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A New Year, A New Website"
-date:   2017-01-17 20:38 -0800
+date:   2017-01-17
 categories: website meta
 ---
 Hey! I'm Tegan. Here's your standard introduction post.
