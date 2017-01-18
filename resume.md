@@ -6,9 +6,11 @@ permalink: /resume/
 
 #### **EDUCATION**
 **Portland State University**&nbsp;&nbsp;&nbsp;&nbsp;*2015 - Present, BS Expected 2019*
+
 *Major: Computer Science, Minor: Physics*
 
 **University of Louisiana at Lafayette**&nbsp;&nbsp;&nbsp;&nbsp;*2007 - 2010*
+
 *Major: Electrical Engineering*
 &nbsp;
 #### **PROFESSIONAL EXPERIENCE**
