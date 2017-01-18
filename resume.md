@@ -12,6 +12,7 @@ permalink: /resume/
 *Major: Electrical Engineering*
 <br><br>
 ### **PROFESSIONAL EXPERIENCE**
+
 **Exelis Inc.**
 *Lafayette, Louisiana*&nbsp;&nbsp;&nbsp;&nbsp;*December 2008 - March 2011*<br>
 Worked independently underneath R&D engineers on electronic warfare contracts involving software development, synthetic radar, flight simulation, software defined radio, and satellite communications.
@@ -21,6 +22,7 @@ Worked independently underneath R&D engineers on electronic warfare contracts in
 Worked under engineers on oilfield instrumentation products related to down-hole drilling sensors and instrumentation, as well as software development for user interface and sensor data analysis.
 <br><br>
 ### **SKILLS**
+
 **C++ Experience (General R&D Software Development)**
 + Solely wrote and maintained a radar scan conversion product in C++ while at Exelis. (2 year project, ~10k lines of code).
 + Low level socket/networking applications to communicate with and between embedded systems.
