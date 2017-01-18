@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Feel free to get in touch with me, all submissions are sent ([via Formspree](https://formspree.io/)) to my main email.
+Feel free to get in touch with me here.
 <br>
 <div>
   <form action="http://formspree.io/contact_redirect34217@teux.me" method="POST">
