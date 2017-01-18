@@ -41,3 +41,4 @@ markdown: kramdown
 gems:
     - jekyll-paginate
     - jekyll-gist
+    - jemoji
