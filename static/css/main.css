@@ -219,3 +219,11 @@ div.col-sm-3 img#about {
         margin-top: 30px;
     }
 }
+
+
+/* Add class to center images in posts. */
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
