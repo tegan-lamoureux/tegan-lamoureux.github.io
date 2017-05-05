@@ -17,13 +17,8 @@ social:
       link: "https://github.com/tegan-lamoureux"
     - icon: fa-linkedin
       link: "https://linkedin.com/in/tegan-lamoureux"
-    - icon: fa-twitter
-      link: "https://twitter.com/tegan_lamoureux"
     - icon: fa-linux
       link: "https://www.archlinux.org"
-
-share:
-  twitter_username: tegan_lamoureux
 
 urls:
     - text: About Me
