@@ -9,18 +9,18 @@ $(document).ready(function() {
   });
 
   $('.p3').click(function() {
-    window.location.href = "https://github.com/tegan-lamoureux/rtl_sdr-to-cfile";
+    window.location.href = "https://github.com/tegan-lamoureux/pedal-pi";
   });
 
   $('.p4').click(function() {
-    window.location.href = "https://github.com/tegan-lamoureux/qt-creator-terminalplugin";
+    window.location.href = "https://github.com/tegan-lamoureux/bell-103-demodulator";
   });
 
   $('.p5').click(function() {
-    window.location.href = "https://github.com/tegan-lamoureux/organic";
+    window.location.href = "https://github.com/tegan-lamoureux/rtl_sdr-to-cfile";
   });
 
   $('.p6').click(function() {
-    window.location.href = "https://github.com/tegan-lamoureux/go-frontend";
+    window.location.href = "https://github.com/tegan-lamoureux/organic";
   });
 });
