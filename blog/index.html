@@ -1,0 +1,73 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head-->
+	<!-- http://www.asofterworld.com/clean/liberte.jpg -->
+	<title>Tegan Lamoureux - Portland, OR</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css" />
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<br>
+		<!-- Header row. -->
+		<div class="row align-items-end">
+			<div class="col-sm">
+				<h3>Tegan Lamoureux</h3>
+			</div>
+			<div class="col-sm">
+				<h5>Firmware & Software Engineer</h5>
+			</div>
+			<div class="col-sm">
+				<h5>Portland, OR</h5>
+			</div>
+		</div>
+
+		<br><br>
+
+		<div class="row align-items-end">
+			<div class="col-xl">
+				<h5>Some thoughts I have:</h5>
+				<table class="table">
+				  <thead>
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">Title</th>
+							<th scope="col">Tags</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+						{% for post in site.posts %}
+					    <tr>
+								<th scope="row">{{forloop.index}}</th>
+					      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+								<td>
+									{% for category in post.categories %}
+									 	{{ category }}
+									 	{% unless {{forloop.last}} -%}
+									 		/
+										{% endunless -%}
+									{% endfor %}
+								</td>
+					    </tr>
+					  {% endfor %}
+				  </tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
